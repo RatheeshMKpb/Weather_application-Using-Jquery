@@ -1,0 +1,29 @@
+body {
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.rounded {
+    border-radius: .75rem;
+}
+
+.bg-white {
+    --bg-opacity: .9;
+    background-color: #59f7e9;
+    background-color: rgba(255,250,250,var(--bg-opacity));
+}
+.border {
+    border-width: 0px;
+}
+
+button, input, optgroup, select, textarea {
+    padding: 0;
+    line-height: inherit;
+    color: cyan;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    color:#8b0ff0
+}
